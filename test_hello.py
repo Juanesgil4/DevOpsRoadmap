@@ -1,4 +1,4 @@
-from hello import hello, sum_func
+from hello import hello, sum_func, print_dict
 
 
 def test_hello():
@@ -8,3 +8,7 @@ def test_hello():
 def test_sum():
     assert sum_func(1, 2) == 3
     assert type(sum_func(1, 2)) == int
+
+
+def test_dict():
+    assert type(print_dict(**{"a": 1})) == dict

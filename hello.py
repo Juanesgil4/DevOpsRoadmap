@@ -20,3 +20,12 @@ def sum_func(*args):
         int: retorna un string
     """
     return sum(args)
+
+
+def print_dict(**kwargs) -> dict:
+    """Regresa un dictionario
+
+    Returns:
+        dict: _description_
+    """
+    return kwargs
