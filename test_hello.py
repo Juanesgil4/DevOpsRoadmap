@@ -6,5 +6,5 @@ def test_hello():
 
 
 def test_sum():
-    assert sum_func(1, 2) == 2
+    assert sum_func(1, 2) == 3
     assert type(sum_func(1, 2)) == int
